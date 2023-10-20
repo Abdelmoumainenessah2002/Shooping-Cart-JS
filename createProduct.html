@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping cart || Create Product</title>
+
+        <!-- Css files -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/createProduct.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    
+        <!-- Boxiicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <!-- <i class='bx bxs-cart'></i>
+             <i class='bx bx-heart' style='color:#ffffff' ></i>
+        -->
+
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand" >
+                        Shopping Cart
+                    </a>
+                    <nav>
+                        <ul class="links">
+                            <li><a href="login.html"> Sign In </a></li>
+                            <li><a href="register.html"> Sign Up </a></li>
+                        </ul>
+                        <ul class="user-info">
+                            <li><a href="profile.html" id="user"></a></li>
+                            <li><a href="favorites.html">Favorites</a></li>
+                            <li><a href="myProducts.html">My Products</a></li>
+                            <li class="shoppingCart">
+                                <i class='bx bxs-cart bxo'></i>
+                                <span class="badge"></span>
+                                <div class="carts-products">
+                                    <div>
+                                        
+                                    </div>
+                                    <a href="cartproducts.html">View All Products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout"></a></li>
+                        </ul>
+                </nav>
+                </div>
+            </div>
+        </header>
+        
+
+        <section class="create-product-page">
+            <h2 class="title">Add New Product</h2>
+            <div class="container">
+                <form action="" id="create-form">
+                    <input type="file"  id="upload-image-file">
+                    <input type="text" id="product-name" placeholder="Name ...">
+                    <input type="text" id="product-description" placeholder="Description ...">
+    
+                    <select name="" id="product-size">
+                        <option value="" hidden>Select size</option>
+                        <option value="small">Small</option>
+                        <option value="meduim">Meduim</option>
+                        <option value="large">Large</option>
+                    </select>
+
+                    <input type="submit" value="Create New Product" >
+                </form>
+            </div>
+        </section>
+
+        <script src="Java script/user.js"></script>
+        <script src="Java script/data.js"></script>
+        <script src="Java script/createProduct.js"></script>
+        <script src="Java script/cartMenu.js"></script>
+        
+    </body>
+</html>

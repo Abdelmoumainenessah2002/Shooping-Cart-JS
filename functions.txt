@@ -1,0 +1,15 @@
+Functions in this project:
+	- Add to cart
+	- remove from cart 
+	- login register cart
+	- filter by size || name
+	- search by name
+	- add to favorite
+	- create product
+	- edit product
+	- remove product
+	- product details
+	-my products
+	-my profile 
+	-edit profile
+
